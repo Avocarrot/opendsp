@@ -1,7 +1,7 @@
 {
-  "name": "dspmock",
-  "version": "1.0.0",
-  "description": "",
+  "name": "opendsp",
+  "version": "0.0.1",
+  "description": "HTTP Service implementation of a DSP in Node (v4.2.1)",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=dev node index.js --port 3000",
