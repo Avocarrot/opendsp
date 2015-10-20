@@ -2,7 +2,12 @@ module.exports = function(grunt) {
     grunt.initConfig({
         nodemon: {
           dev: {
-            script: 'index.js'
+            script: 'index.js',
+            options: {
+              env: {
+                ENV: 'dev'
+              }
+            }
           },
           watch: [ 'lib/**/*.js', 'index.js' ]
         }
