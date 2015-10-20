@@ -3,7 +3,7 @@ OpenDSP
 HTTP Service implementation of a DSP in Node (v4.2.1).
 
 ![Jack Hammerton](https://raw.githubusercontent.com/Avocarrot/opendsp/master/jack_hammerton.jpg)
->E. H. Sothern as Jack Hammerton in "The Highest Bidder".
+>E. H. Sothern as Jack Hammerton in "The Highest Bidder" (1887).
 
 ##About
 
