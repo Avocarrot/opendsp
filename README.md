@@ -1,3 +1,3 @@
 DSPMock
 =======
-Provide mock functionality of a DSP.
+HTTP service imitating a DSP
