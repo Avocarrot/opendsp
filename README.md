@@ -7,7 +7,7 @@ HTTP Service implementation of a DSP in Node (v4.2.1).
 
 ##About
 
-[DSPMock](https://github.com/Avocarrot/opendsp) is used internal from [Avocarrot](http://avocarrot.com) for testing purposes.
+[OpenDSP](https://github.com/Avocarrot/opendsp) is as a mock server for testing purposes.
 
 ##Bootstrap
 
