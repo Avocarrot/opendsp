@@ -11,19 +11,15 @@ HTTP Service implementation of a DSP in Node (v4.2.1).
 
 ##Bootstrap
 
-1. Get a local copy of the `dspmock`.
 ```
+# Get a local copy of dspmock.
 $ git clone https://github.com/Avocarrot/dspmock.git
 $ cd dspmock
-```
 
-2. You will need Node v4.2.1 for the `DSPMock`. In case you use `nvm`:
-```
+# You will need Node v4.2.1 for the `DSPMock`. In case you use `nvm`:
 $ nvm use v4.2.1
-```
 
-3. Npm install and start Grunt
-```
+# Npm install and start Grunt
 $ npm install
 $ grunt nodemon:dev
 ```
