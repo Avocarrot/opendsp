@@ -17,6 +17,7 @@
     "koa-json": "^1.1.1",
     "koa-json-body": "^4.0.0",
     "koa-router": "^5.2.3",
+    "koa-timeout": "^0.1.1",
     "nconf": "^0.8.2",
     "openrtb": "avocarrot/openrtb"
   },

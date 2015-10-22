@@ -3,7 +3,8 @@ var DSP = require('./lib/dsp');
 
 var server = new DSP({
   lag: (nconf.get('server:lag') || 0),
-  details: (nconf.get('dsp') || { name: 'jack-hammerton' })
+  details: (nconf.get('dsp') || { name: 'jack-hammerton' }),
+  timeout: (nconf.get('server:timeout') || 0)
 });
 
 server.listen((nconf.get('server:port') || nconf.get('port') || 3000));
