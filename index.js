@@ -7,4 +7,4 @@ var server = new DSP({
   timeout: (nconf.get('server:timeout') || 0)
 });
 
-server.listen((nconf.get('server:port') || nconf.get('port') || 3000));
+server.listen((nconf.get('port') || nconf.get('server:port') || 3000));
