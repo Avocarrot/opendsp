@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=dev node index.js --port 3000",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive test"
   },
   "engines": {
     "node": "4.2.1"
@@ -13,16 +13,19 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "express-admin": "^1.2.6",
     "koa": "^1.1.0",
     "koa-json": "^1.1.1",
     "koa-json-body": "^4.0.0",
     "koa-router": "^5.2.3",
     "koa-timeout": "^0.1.1",
+    "mysql": "^2.9.0",
     "nconf": "^0.8.2",
     "openrtb": "avocarrot/openrtb"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-nodemon": "^0.4.0"
+    "grunt-nodemon": "^0.4.0",
+    "mocha": "^2.3.3"
   }
 }
