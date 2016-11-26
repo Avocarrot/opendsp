@@ -2,6 +2,7 @@
   "server": {
     "lag": 10,
     "port": 4001,
-    "timeout": 50000
+    "timeout": 50000,
+    "empty_bid": 0.00001
   }
 }
